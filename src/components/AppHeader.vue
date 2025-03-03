@@ -11,8 +11,8 @@
   </header>
 </template>
 <script setup lang="ts">
-import { defineComponent } from 'vue'
-defineComponent({
+import { defineOptions } from 'vue'
+defineOptions({
   name: 'RestaurantsList',
 })
 </script>

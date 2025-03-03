@@ -7,11 +7,10 @@
   </div>
 </template>
 <script setup lang="ts">
-import { defineComponent } from 'vue'
+import { defineOptions } from 'vue'
 import { useSearchStore } from '@/stores/search'
 import { storeToRefs } from 'pinia'
-defineComponent({
-  emits: ['trigger-search'],
+defineOptions({
   name: 'SearchForm',
 })
 const store = useSearchStore()

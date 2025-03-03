@@ -24,9 +24,9 @@
 <script setup lang="ts">
 import { storeToRefs } from 'pinia'
 import { useSearchStore } from '@/stores/search'
-import { defineComponent } from 'vue'
+import { defineOptions } from 'vue'
 
-defineComponent({
+defineOptions({
   name: 'RestaurantsList',
 })
 
